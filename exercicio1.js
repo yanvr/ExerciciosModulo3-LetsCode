@@ -6,11 +6,13 @@ class Person {
     this.gender = gender;
     this.interests = [...interests];
   }
+
   bio() {
     return `${this.fistName} ${this.lastName} is ${
       this.age
     } years old. They like ${this.interests.join(", ")}`;
   }
+
   gretting() {
     return `Hi! I'm ${this.fistName}`;
   }

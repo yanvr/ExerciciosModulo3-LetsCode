@@ -93,9 +93,3 @@ class Book {
     this.readDate = this.hasRead ? new Date(Date.now()) : "No read date";
   }
 }
-
-let book = new BookLists();
-book.addBook("O livro muito loco", "terror", "Ygor", true);
-book.addBook("Meu novo mundo", "terror", "Ygor", true);
-
-console.log(book.getBookBy("genre", "terror"));
